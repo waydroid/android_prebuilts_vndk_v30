@@ -1739,10 +1739,10 @@ vndk_prebuilt_shared {
     },
     arch: {
         arm: {
-            srcs: ["arch-arm-armv8-a/shared/vndk-core/android.hardware.identity-V1-ndk_platform.so"],
+            srcs: ["arch-arm-armv8-a/shared/vndk-core/android.hardware.identity-V2-ndk_platform.so"],
         },
         arm64: {
-            srcs: ["arch-arm64-armv8-a/shared/vndk-core/android.hardware.identity-V1-ndk_platform.so"],
+            srcs: ["arch-arm64-armv8-a/shared/vndk-core/android.hardware.identity-V2-ndk_platform.so"],
         },
     },
 }
@@ -1811,10 +1811,10 @@ vndk_prebuilt_shared {
     },
     arch: {
         arm: {
-            srcs: ["arch-arm-armv8-a/shared/vndk-core/android.hardware.keymaster-V1-ndk_platform.so"],
+            srcs: ["arch-arm-armv8-a/shared/vndk-core/android.hardware.keymaster-V2-ndk_platform.so"],
         },
         arm64: {
-            srcs: ["arch-arm64-armv8-a/shared/vndk-core/android.hardware.keymaster-V1-ndk_platform.so"],
+            srcs: ["arch-arm64-armv8-a/shared/vndk-core/android.hardware.keymaster-V2-ndk_platform.so"],
         },
     },
 }
@@ -3654,30 +3654,6 @@ vndk_prebuilt_shared {
         arm: {
             srcs: ["arch-arm-armv8-a/shared/vndk-core/libclang_rt.ubsan_standalone-arm-android.so"],
         },
-    },
-}
-
-vndk_prebuilt_shared {
-    name: "libclang_rt.ubsan_standalone-i686-android",
-    version: "30",
-    target_arch: "arm64",
-    vendor_available: true,
-    vndk: {
-        enabled: true,
-    },
-    arch: {
-    },
-}
-
-vndk_prebuilt_shared {
-    name: "libclang_rt.ubsan_standalone-x86_64-android",
-    version: "30",
-    target_arch: "arm64",
-    vendor_available: true,
-    vndk: {
-        enabled: true,
-    },
-    arch: {
     },
 }
 
