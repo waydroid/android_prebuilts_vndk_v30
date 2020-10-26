@@ -210,7 +210,7 @@ libadf.so system/core/deprecated-adf/libadf
 libaudioroute.so system/media/audio_route
 libaudioutils.so system/media/audio_utils
 libbacktrace.so system/core/libbacktrace
-libbase.so system/core/base
+libbase.so system/libbase
 libbcinfo.so frameworks/compile/libbcc/bcinfo
 libbinder.so frameworks/native/libs/binder
 libblas.so external/cblas
