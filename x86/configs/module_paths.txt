@@ -209,8 +209,8 @@ libRS_internal.so frameworks/rs
 libadf.so system/core/deprecated-adf/libadf
 libaudioroute.so system/media/audio_route
 libaudioutils.so system/media/audio_utils
-libbacktrace.so system/unwinding/libbacktrace
-libbase.so system/libbase
+libbacktrace.so system/core/libbacktrace
+libbase.so system/core/base
 libbcinfo.so frameworks/compile/libbcc/bcinfo
 libbinder.so frameworks/native/libs/binder
 libblas.so external/cblas
@@ -276,7 +276,7 @@ libsysutils.so system/core/libsysutils
 libtinyalsa.so external/tinyalsa
 libtinyxml2.so external/tinyxml2
 libui.so frameworks/native/libs/ui
-libunwindstack.so system/unwinding/libunwindstack
+libunwindstack.so system/core/libunwindstack
 libusbhost.so system/core/libusbhost
 libutils.so system/core/libutils
 libutilscallstack.so system/core/libutils
