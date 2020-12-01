@@ -73,3 +73,21 @@ prebuilt_etc {
     },
 }
 
+prebuilt_etc {
+    name: "vndkproduct.libraries.30.txt",
+    target: {
+        android_arm: {
+            src: "arm/configs/vndkproduct.libraries.txt",
+        },
+        android_arm64: {
+            src: "arm64/configs/vndkproduct.libraries.txt",
+        },
+        android_x86: {
+            src: "x86/configs/vndkproduct.libraries.txt",
+        },
+        android_x86_64: {
+            src: "x86_64/configs/vndkproduct.libraries.txt",
+        },
+    },
+}
+
