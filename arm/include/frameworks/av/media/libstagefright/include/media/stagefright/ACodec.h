@@ -147,6 +147,7 @@ private:
         kWhatReleaseCodecInstance    = 'relC',
         kWhatForceStateTransition    = 'fstt',
         kWhatCheckIfStuck            = 'Cstk',
+        kWhatSubmitExtraOutputMetadataBuffer = 'sbxo',
     };
 
     enum {
@@ -272,6 +273,7 @@ private:
     bool mShutdownInProgress;
     bool mExplicitShutdown;
     bool mIsLegacyVP9Decoder;
+    bool mIsLowLatency;
 
     // If "mKeepComponentAllocated" we only transition back to Loaded state
     // and do not release the component instance.
@@ -499,6 +501,7 @@ private:
     status_t setupAMRCodec(bool encoder, bool isWAMR, int32_t bitRate);
     status_t setupG711Codec(bool encoder, int32_t sampleRate, int32_t numChannels);
 
+    status_t setupOpusCodec(bool encoder, int32_t sampleRate, int32_t numChannels);
     status_t setupFlacCodec(
             bool encoder, int32_t numChannels, int32_t sampleRate, int32_t compressionLevel,
             AudioEncoding encoding);
