@@ -6,6 +6,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -44,6 +45,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -78,6 +80,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -113,6 +116,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -149,6 +153,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -186,6 +191,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -220,6 +226,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -254,6 +261,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -289,6 +297,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -323,6 +332,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -357,6 +367,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -391,6 +402,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -425,6 +437,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -460,6 +473,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -495,6 +509,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -530,6 +545,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -565,6 +581,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -601,6 +618,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -637,6 +655,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -673,6 +692,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -709,6 +729,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -746,6 +767,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -783,6 +805,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -817,6 +840,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -851,6 +875,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -887,6 +912,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -921,6 +947,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -955,6 +982,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -997,6 +1025,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1017,6 +1046,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1054,6 +1084,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1088,6 +1119,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1122,6 +1154,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1156,6 +1189,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1191,6 +1225,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1225,6 +1260,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1261,6 +1297,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1295,6 +1332,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1330,6 +1368,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1364,6 +1403,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1399,6 +1439,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1433,6 +1474,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1468,6 +1510,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1502,6 +1545,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1536,6 +1580,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1572,6 +1617,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1608,6 +1654,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1645,6 +1692,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1683,6 +1731,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1722,6 +1771,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1762,6 +1812,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1796,6 +1847,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1831,6 +1883,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1867,6 +1920,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1904,6 +1958,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1942,6 +1997,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -1981,6 +2037,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2023,6 +2080,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2058,6 +2116,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2092,6 +2151,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2127,6 +2187,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2163,6 +2224,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2199,6 +2261,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2233,6 +2296,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2268,6 +2332,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2287,6 +2352,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2323,6 +2389,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2357,6 +2424,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2392,6 +2460,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2426,6 +2495,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2461,6 +2531,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2497,6 +2568,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2534,6 +2606,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2568,6 +2641,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2603,6 +2677,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2637,6 +2712,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2671,6 +2747,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2706,6 +2783,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2745,6 +2823,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2779,6 +2858,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2813,6 +2893,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2848,6 +2929,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2886,6 +2968,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2926,6 +3009,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -2962,6 +3046,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3000,6 +3085,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3038,6 +3124,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3074,6 +3161,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3111,6 +3199,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3146,6 +3235,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3183,6 +3273,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3222,6 +3313,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3262,6 +3354,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3296,6 +3389,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3330,6 +3424,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3365,6 +3460,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3401,6 +3497,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3422,6 +3519,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3457,6 +3555,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3491,6 +3590,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3525,6 +3625,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3545,6 +3646,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3579,6 +3681,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3614,6 +3717,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3650,6 +3754,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3670,6 +3775,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3704,6 +3810,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3738,6 +3845,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3772,6 +3880,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3815,6 +3924,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3859,6 +3969,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3896,6 +4007,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3931,6 +4043,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3965,6 +4078,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -3999,6 +4113,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4034,6 +4149,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4071,6 +4187,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4109,6 +4226,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4143,6 +4261,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4178,6 +4297,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4214,6 +4334,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4248,6 +4369,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4268,6 +4390,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4302,6 +4425,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4336,6 +4460,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4371,6 +4496,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4407,6 +4533,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4444,6 +4571,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4479,6 +4607,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4515,6 +4644,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4552,6 +4682,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4587,6 +4718,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4621,6 +4753,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4656,6 +4789,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4692,6 +4826,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4729,6 +4864,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4768,6 +4904,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4808,6 +4945,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4828,6 +4966,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4862,6 +5001,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4897,6 +5037,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4933,6 +5074,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -4967,6 +5109,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5002,6 +5145,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5038,6 +5182,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5056,6 +5201,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5091,6 +5237,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5127,6 +5274,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5164,6 +5312,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5203,6 +5352,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5237,6 +5387,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5271,6 +5422,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5305,6 +5457,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5340,6 +5493,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5375,6 +5529,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5409,6 +5564,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5444,6 +5600,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5479,6 +5636,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5514,6 +5672,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5548,6 +5707,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5583,6 +5743,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5617,6 +5778,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5652,6 +5814,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5688,6 +5851,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5708,6 +5872,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5742,6 +5907,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5777,6 +5943,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5813,6 +5980,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5850,6 +6018,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5884,6 +6053,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5918,6 +6088,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5953,6 +6124,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -5989,6 +6161,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6026,6 +6199,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6060,6 +6234,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6094,6 +6269,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6129,6 +6305,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6165,6 +6342,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6203,6 +6381,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6237,6 +6416,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6272,6 +6452,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6308,6 +6489,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6345,6 +6527,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6383,6 +6566,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6417,6 +6601,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6452,6 +6637,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6488,6 +6674,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6522,6 +6709,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6556,6 +6744,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6591,6 +6780,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6625,6 +6815,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6659,6 +6850,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6678,6 +6870,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6694,6 +6887,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6720,6 +6914,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6746,6 +6941,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6764,6 +6960,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6783,6 +6980,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6803,6 +7001,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6818,6 +7017,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6833,6 +7033,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6848,6 +7049,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6867,6 +7069,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6898,6 +7101,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6917,6 +7121,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6936,6 +7141,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6956,6 +7162,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6975,6 +7182,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -6995,6 +7203,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7015,6 +7224,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7034,6 +7244,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7054,6 +7265,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7080,6 +7292,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7098,6 +7311,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: false,
+    product_available: false,
     vndk: {
         enabled: true,
     },
@@ -7161,6 +7375,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7182,6 +7397,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7219,6 +7435,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7239,6 +7456,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7258,6 +7476,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7277,6 +7496,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7297,6 +7517,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7315,6 +7536,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7380,6 +7602,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7398,6 +7621,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7417,6 +7641,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7435,6 +7660,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7454,6 +7680,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7474,6 +7701,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7494,6 +7722,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7514,6 +7743,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7534,6 +7764,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7554,6 +7785,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7573,6 +7805,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7592,6 +7825,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7611,6 +7845,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7631,6 +7866,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7651,6 +7887,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7688,6 +7925,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7735,6 +7973,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7763,6 +8002,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7793,6 +8033,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7859,6 +8100,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7877,6 +8119,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7896,6 +8139,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7916,6 +8160,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7936,6 +8181,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -7989,6 +8235,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -8008,6 +8255,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -8027,6 +8275,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -8046,6 +8295,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -8065,6 +8315,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
     },
@@ -8087,6 +8338,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8108,6 +8360,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8130,6 +8383,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8165,6 +8419,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8201,6 +8456,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8238,6 +8494,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8274,6 +8531,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8312,6 +8570,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8350,6 +8609,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8388,6 +8648,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8423,6 +8684,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8458,6 +8720,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8475,6 +8738,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8510,6 +8774,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8545,6 +8810,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8561,6 +8827,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8577,6 +8844,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8593,6 +8861,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: false,
+    product_available: false,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8612,6 +8881,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8632,6 +8902,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8651,6 +8922,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: false,
+    product_available: false,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8671,6 +8943,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8692,6 +8965,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: false,
+    product_available: false,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8709,6 +8983,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8731,6 +9006,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8775,6 +9051,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8799,6 +9076,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8836,6 +9114,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8874,6 +9153,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8896,6 +9176,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8916,6 +9197,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8936,6 +9218,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8956,6 +9239,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -8976,6 +9260,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -9001,6 +9286,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
@@ -9026,6 +9312,7 @@ vndk_prebuilt_shared {
     version: "30",
     target_arch: "arm",
     vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
