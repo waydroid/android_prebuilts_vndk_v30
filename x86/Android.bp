@@ -7310,10 +7310,11 @@ vndk_prebuilt_shared {
     name: "libgui",
     version: "30",
     target_arch: "x86",
-    vendor_available: false,
-    product_available: false,
+    vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
+        private: true,
     },
     arch: {
         x86: {
@@ -8860,11 +8861,12 @@ vndk_prebuilt_shared {
     name: "libbacktrace",
     version: "30",
     target_arch: "x86",
-    vendor_available: false,
-    product_available: false,
+    vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
+        private: true,
     },
     arch: {
         x86: {
@@ -8921,11 +8923,12 @@ vndk_prebuilt_shared {
     name: "libblas",
     version: "30",
     target_arch: "x86",
-    vendor_available: false,
-    product_available: false,
+    vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
+        private: true,
     },
     notice: ":vndk-v30-libblas.so-notice",
     arch: {
@@ -8964,11 +8967,12 @@ vndk_prebuilt_shared {
     name: "libcompiler_rt",
     version: "30",
     target_arch: "x86",
-    vendor_available: false,
-    product_available: false,
+    vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
+        private: true,
     },
     notice: ":vndk-v30-libcompiler_rt.so-notice",
     arch: {
