@@ -115,7 +115,7 @@ struct MessageQueue {
      *
      * @return Whether the write was successful.
      */
-    bool write(const T* data, size_t count);
+    __attribute__((noinline)) bool write(const T* data, size_t count);
 
     /**
      * Perform a blocking write of 'count' items into the FMQ using EventFlags.
@@ -170,7 +170,7 @@ struct MessageQueue {
      *
      * @return Whether the read was successful.
      */
-    bool read(T* data, size_t count);
+    __attribute__((noinline)) bool read(T* data, size_t count);
 
     /**
      * Perform a blocking read operation of 'count' items from the FMQ. Does not
@@ -378,7 +378,7 @@ struct MessageQueue {
      * @return Whether it is possible to write 'nMessages' items of type T
      * into the FMQ.
      */
-    bool beginWrite(size_t nMessages, MemTransaction* memTx) const;
+    __attribute__((always_inline)) bool beginWrite(size_t nMessages, MemTransaction* memTx) const;
 
     /**
      * Commit a write of size 'nMessages'. To be only used after a call to beginWrite().
@@ -402,7 +402,7 @@ struct MessageQueue {
      * @return bool Whether it is possible to read 'nMessages' items of type T
      * from the FMQ.
      */
-    bool beginRead(size_t nMessages, MemTransaction* memTx) const;
+    __attribute__((always_inline)) bool beginRead(size_t nMessages, MemTransaction* memTx) const;
 
     /**
      * Commit a read of size 'nMessages'. To be only used after a call to beginRead().
@@ -996,6 +996,12 @@ bool MessageQueue<T, flavor>::beginWrite(size_t nMessages, MemTransaction* resul
     }
 
     auto writePtr = mWritePtr->load(std::memory_order_relaxed);
+    if (writePtr % sizeof(T) != 0) {
+        hardware::details::logError(
+                "The write pointer has become misaligned. Writing to the queue is no longer "
+                "possible.");
+        return false;
+    }
     size_t writeOffset = writePtr % mDesc->getSize();
 
     /*
@@ -1083,6 +1089,12 @@ bool MessageQueue<T, flavor>::beginRead(size_t nMessages, MemTransaction* result
      * stores to mReadPtr from a different thread.
      */
     auto readPtr = mReadPtr->load(std::memory_order_relaxed);
+    if (writePtr % sizeof(T) != 0 || readPtr % sizeof(T) != 0) {
+        hardware::details::logError(
+                "The write or read pointer has become misaligned. Reading from the queue is no "
+                "longer possible.");
+        return false;
+    }
 
     if (writePtr - readPtr > mDesc->getSize()) {
         mReadPtr->store(writePtr, std::memory_order_release);

@@ -21,7 +21,7 @@ public:
 
   int64_t challenge;
   ::aidl::android::hardware::keymaster::Timestamp timestamp;
-  ::aidl::android::hardware::keymaster::SecurityLevel securityLevel;
+  ::aidl::android::hardware::keymaster::SecurityLevel securityLevel = ::aidl::android::hardware::keymaster::SecurityLevel(0);
   std::vector<int8_t> mac;
 
   binder_status_t readFromParcel(const AParcel* parcel);
