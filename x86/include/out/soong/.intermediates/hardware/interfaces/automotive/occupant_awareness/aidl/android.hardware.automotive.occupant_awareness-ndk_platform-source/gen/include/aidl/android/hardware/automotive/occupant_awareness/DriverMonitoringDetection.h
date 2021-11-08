@@ -19,7 +19,7 @@ class DriverMonitoringDetection {
 public:
   static const char* descriptor;
 
-  ::aidl::android::hardware::automotive::occupant_awareness::ConfidenceLevel confidenceScore;
+  ::aidl::android::hardware::automotive::occupant_awareness::ConfidenceLevel confidenceScore = ::aidl::android::hardware::automotive::occupant_awareness::ConfidenceLevel(0);
   bool isLookingOnRoad;
   int64_t gazeDurationMillis;
 

@@ -15,6 +15,10 @@ binder_status_t NativeHandle::readFromParcel(const AParcel* parcel) {
   if (_aidl_parcelable_size < 0) return STATUS_BAD_VALUE;
   if (_aidl_ret_status != STATUS_OK) return _aidl_ret_status;
 
+  if (AParcel_getDataPosition(parcel) - _aidl_start_pos >= _aidl_parcelable_size) {
+    AParcel_setDataPosition(parcel, _aidl_start_pos + _aidl_parcelable_size);
+    return _aidl_ret_status;
+  }
   _aidl_ret_status = ::ndk::AParcel_readVector(parcel, &fds);
   if (_aidl_ret_status != STATUS_OK) return _aidl_ret_status;
 
@@ -25,10 +29,6 @@ binder_status_t NativeHandle::readFromParcel(const AParcel* parcel) {
   _aidl_ret_status = ::ndk::AParcel_readVector(parcel, &ints);
   if (_aidl_ret_status != STATUS_OK) return _aidl_ret_status;
 
-  if (AParcel_getDataPosition(parcel) - _aidl_start_pos >= _aidl_parcelable_size) {
-    AParcel_setDataPosition(parcel, _aidl_start_pos + _aidl_parcelable_size);
-    return _aidl_ret_status;
-  }
   AParcel_setDataPosition(parcel, _aidl_start_pos + _aidl_parcelable_size);
   return _aidl_ret_status;
 }
