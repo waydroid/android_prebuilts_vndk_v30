@@ -19,7 +19,7 @@ public:
   static const char* descriptor;
 
   int32_t delayMs;
-  ::aidl::android::hardware::vibrator::CompositePrimitive primitive;
+  ::aidl::android::hardware::vibrator::CompositePrimitive primitive = ::aidl::android::hardware::vibrator::CompositePrimitive(0);
   float scale;
 
   binder_status_t readFromParcel(const AParcel* parcel);
