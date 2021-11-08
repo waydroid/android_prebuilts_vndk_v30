@@ -20,11 +20,11 @@ class GazeDetection {
 public:
   static const char* descriptor;
 
-  ::aidl::android::hardware::automotive::occupant_awareness::ConfidenceLevel gazeConfidence;
+  ::aidl::android::hardware::automotive::occupant_awareness::ConfidenceLevel gazeConfidence = ::aidl::android::hardware::automotive::occupant_awareness::ConfidenceLevel(0);
   std::vector<double> headPosition;
   std::vector<double> headAngleUnitVector;
   std::vector<double> gazeAngleUnitVector;
-  ::aidl::android::hardware::automotive::occupant_awareness::VehicleRegion gazeTarget;
+  ::aidl::android::hardware::automotive::occupant_awareness::VehicleRegion gazeTarget = ::aidl::android::hardware::automotive::occupant_awareness::VehicleRegion(0);
   std::string customGazeTarget;
   int64_t timeOnTargetMillis;
 

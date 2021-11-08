@@ -15,22 +15,22 @@ namespace pm {
 
 class PackageChangeEvent : public ::android::Parcelable {
 public:
-  inline bool operator!=(const PackageChangeEvent& rhs) const {
+  inline bool operator!=([[maybe_unused]] const PackageChangeEvent& rhs) const {
     return std::tie(packageName, version, lastUpdateTimeMillis, newInstalled, dataRemoved, isDeleted)!=std::tie(rhs.packageName, rhs.version, rhs.lastUpdateTimeMillis, rhs.newInstalled, rhs.dataRemoved, rhs.isDeleted);
   }
-  inline bool operator<(const PackageChangeEvent& rhs) const {
+  inline bool operator<([[maybe_unused]] const PackageChangeEvent& rhs) const {
     return std::tie(packageName, version, lastUpdateTimeMillis, newInstalled, dataRemoved, isDeleted)<std::tie(rhs.packageName, rhs.version, rhs.lastUpdateTimeMillis, rhs.newInstalled, rhs.dataRemoved, rhs.isDeleted);
   }
-  inline bool operator<=(const PackageChangeEvent& rhs) const {
+  inline bool operator<=([[maybe_unused]] const PackageChangeEvent& rhs) const {
     return std::tie(packageName, version, lastUpdateTimeMillis, newInstalled, dataRemoved, isDeleted)<=std::tie(rhs.packageName, rhs.version, rhs.lastUpdateTimeMillis, rhs.newInstalled, rhs.dataRemoved, rhs.isDeleted);
   }
-  inline bool operator==(const PackageChangeEvent& rhs) const {
+  inline bool operator==([[maybe_unused]] const PackageChangeEvent& rhs) const {
     return std::tie(packageName, version, lastUpdateTimeMillis, newInstalled, dataRemoved, isDeleted)==std::tie(rhs.packageName, rhs.version, rhs.lastUpdateTimeMillis, rhs.newInstalled, rhs.dataRemoved, rhs.isDeleted);
   }
-  inline bool operator>(const PackageChangeEvent& rhs) const {
+  inline bool operator>([[maybe_unused]] const PackageChangeEvent& rhs) const {
     return std::tie(packageName, version, lastUpdateTimeMillis, newInstalled, dataRemoved, isDeleted)>std::tie(rhs.packageName, rhs.version, rhs.lastUpdateTimeMillis, rhs.newInstalled, rhs.dataRemoved, rhs.isDeleted);
   }
-  inline bool operator>=(const PackageChangeEvent& rhs) const {
+  inline bool operator>=([[maybe_unused]] const PackageChangeEvent& rhs) const {
     return std::tie(packageName, version, lastUpdateTimeMillis, newInstalled, dataRemoved, isDeleted)>=std::tie(rhs.packageName, rhs.version, rhs.lastUpdateTimeMillis, rhs.newInstalled, rhs.dataRemoved, rhs.isDeleted);
   }
   ::std::string packageName;

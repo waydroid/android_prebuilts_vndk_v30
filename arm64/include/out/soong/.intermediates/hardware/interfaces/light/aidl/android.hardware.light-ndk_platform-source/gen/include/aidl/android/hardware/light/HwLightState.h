@@ -20,10 +20,10 @@ public:
   static const char* descriptor;
 
   int32_t color;
-  ::aidl::android::hardware::light::FlashMode flashMode;
+  ::aidl::android::hardware::light::FlashMode flashMode = ::aidl::android::hardware::light::FlashMode(0);
   int32_t flashOnMs;
   int32_t flashOffMs;
-  ::aidl::android::hardware::light::BrightnessMode brightnessMode;
+  ::aidl::android::hardware::light::BrightnessMode brightnessMode = ::aidl::android::hardware::light::BrightnessMode(0);
 
   binder_status_t readFromParcel(const AParcel* parcel);
   binder_status_t writeToParcel(AParcel* parcel) const;

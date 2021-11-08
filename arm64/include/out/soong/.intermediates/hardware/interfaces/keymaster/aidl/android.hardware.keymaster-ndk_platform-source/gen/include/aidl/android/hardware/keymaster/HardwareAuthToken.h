@@ -22,7 +22,7 @@ public:
   int64_t challenge;
   int64_t userId;
   int64_t authenticatorId;
-  ::aidl::android::hardware::keymaster::HardwareAuthenticatorType authenticatorType;
+  ::aidl::android::hardware::keymaster::HardwareAuthenticatorType authenticatorType = ::aidl::android::hardware::keymaster::HardwareAuthenticatorType(0);
   ::aidl::android::hardware::keymaster::Timestamp timestamp;
   std::vector<int8_t> mac;
 
