@@ -13,12 +13,12 @@ package {
     //   SPDX-license-identifier-GPL-2.0
     //   SPDX-license-identifier-ISC
     //   SPDX-license-identifier-LGPL
-    //   SPDX-license-identifier-LGPL-2.1
-    //   SPDX-license-identifier-LGPL-3.0
     //   SPDX-license-identifier-MIT
     //   SPDX-license-identifier-NCSA
     //   SPDX-license-identifier-OpenSSL
+    //   SPDX-license-identifier-Zlib
     //   legacy_permissive
+    //   legacy_unencumbered
     default_applicable_licenses: ["prebuilts_vndk_v30_license"],
 }
 
