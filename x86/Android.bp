@@ -2,23 +2,6 @@
 // DO NOT EDIT
 
 package {
-    // See: http://go/android-license-faq
-    // A large-scale-change added 'default_applicable_licenses' to import
-    // all of the 'license_kinds' from "prebuilts_vndk_v30_license"
-    // to get the below license kinds:
-    //   SPDX-license-identifier-Apache-2.0
-    //   SPDX-license-identifier-BSD
-    //   SPDX-license-identifier-CC0-1.0
-    //   SPDX-license-identifier-GPL
-    //   SPDX-license-identifier-GPL-2.0
-    //   SPDX-license-identifier-ISC
-    //   SPDX-license-identifier-LGPL
-    //   SPDX-license-identifier-MIT
-    //   SPDX-license-identifier-NCSA
-    //   SPDX-license-identifier-OpenSSL
-    //   SPDX-license-identifier-Zlib
-    //   legacy_permissive
-    //   legacy_unencumbered
     default_applicable_licenses: ["prebuilts_vndk_v30_license"],
 }
 
