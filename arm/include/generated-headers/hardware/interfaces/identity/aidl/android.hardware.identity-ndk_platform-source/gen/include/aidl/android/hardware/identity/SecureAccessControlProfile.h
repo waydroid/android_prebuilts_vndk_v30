@@ -18,11 +18,11 @@ class SecureAccessControlProfile {
 public:
   static const char* descriptor;
 
-  int32_t id;
+  int32_t id = {};
   ::aidl::android::hardware::identity::Certificate readerCertificate;
-  bool userAuthenticationRequired;
-  int64_t timeoutMillis;
-  int64_t secureUserId;
+  bool userAuthenticationRequired = {};
+  int64_t timeoutMillis = {};
+  int64_t secureUserId = {};
   std::vector<int8_t> mac;
 
   binder_status_t readFromParcel(const AParcel* parcel);
