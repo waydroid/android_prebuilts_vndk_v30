@@ -20,12 +20,12 @@ class HardwareBufferDescription {
 public:
   static const char* descriptor;
 
-  int32_t width;
-  int32_t height;
-  int32_t layers;
+  int32_t width = {};
+  int32_t height = {};
+  int32_t layers = {};
   ::aidl::android::hardware::graphics::common::PixelFormat format = ::aidl::android::hardware::graphics::common::PixelFormat(0);
   ::aidl::android::hardware::graphics::common::BufferUsage usage = ::aidl::android::hardware::graphics::common::BufferUsage(0);
-  int32_t stride;
+  int32_t stride = {};
 
   binder_status_t readFromParcel(const AParcel* parcel);
   binder_status_t writeToParcel(AParcel* parcel) const;

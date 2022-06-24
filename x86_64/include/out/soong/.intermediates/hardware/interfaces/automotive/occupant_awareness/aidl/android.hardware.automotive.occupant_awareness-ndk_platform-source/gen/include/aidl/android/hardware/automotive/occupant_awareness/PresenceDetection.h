@@ -18,8 +18,8 @@ class PresenceDetection {
 public:
   static const char* descriptor;
 
-  bool isOccupantDetected;
-  int64_t detectionDurationMillis;
+  bool isOccupantDetected = {};
+  int64_t detectionDurationMillis = {};
 
   binder_status_t readFromParcel(const AParcel* parcel);
   binder_status_t writeToParcel(AParcel* parcel) const;
