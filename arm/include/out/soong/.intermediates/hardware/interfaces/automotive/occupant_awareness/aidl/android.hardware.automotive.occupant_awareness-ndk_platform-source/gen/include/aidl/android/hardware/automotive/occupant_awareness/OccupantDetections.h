@@ -19,7 +19,7 @@ class OccupantDetections {
 public:
   static const char* descriptor;
 
-  int64_t timeStampMillis;
+  int64_t timeStampMillis = {};
   std::vector<::aidl::android::hardware::automotive::occupant_awareness::OccupantDetection> detections;
 
   binder_status_t readFromParcel(const AParcel* parcel);

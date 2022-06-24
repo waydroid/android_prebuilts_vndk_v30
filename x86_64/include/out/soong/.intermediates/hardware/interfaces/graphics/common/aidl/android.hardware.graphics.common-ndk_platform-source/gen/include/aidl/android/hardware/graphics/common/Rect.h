@@ -18,10 +18,10 @@ class Rect {
 public:
   static const char* descriptor;
 
-  int32_t left;
-  int32_t top;
-  int32_t right;
-  int32_t bottom;
+  int32_t left = {};
+  int32_t top = {};
+  int32_t right = {};
+  int32_t bottom = {};
 
   binder_status_t readFromParcel(const AParcel* parcel);
   binder_status_t writeToParcel(AParcel* parcel) const;

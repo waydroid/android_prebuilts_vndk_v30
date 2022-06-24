@@ -18,9 +18,9 @@ class CompositeEffect {
 public:
   static const char* descriptor;
 
-  int32_t delayMs;
+  int32_t delayMs = {};
   ::aidl::android::hardware::vibrator::CompositePrimitive primitive = ::aidl::android::hardware::vibrator::CompositePrimitive(0);
-  float scale;
+  float scale = {};
 
   binder_status_t readFromParcel(const AParcel* parcel);
   binder_status_t writeToParcel(AParcel* parcel) const;
