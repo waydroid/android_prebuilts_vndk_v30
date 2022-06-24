@@ -26,7 +26,7 @@ public:
   std::vector<double> gazeAngleUnitVector;
   ::aidl::android::hardware::automotive::occupant_awareness::VehicleRegion gazeTarget = ::aidl::android::hardware::automotive::occupant_awareness::VehicleRegion(0);
   std::string customGazeTarget;
-  int64_t timeOnTargetMillis;
+  int64_t timeOnTargetMillis = {};
 
   binder_status_t readFromParcel(const AParcel* parcel);
   binder_status_t writeToParcel(AParcel* parcel) const;

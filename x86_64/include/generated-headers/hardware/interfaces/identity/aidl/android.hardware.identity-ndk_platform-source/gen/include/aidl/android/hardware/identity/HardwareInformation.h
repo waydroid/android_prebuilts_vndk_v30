@@ -19,8 +19,8 @@ public:
 
   std::string credentialStoreName;
   std::string credentialStoreAuthorName;
-  int32_t dataChunkSize;
-  bool isDirectAccess;
+  int32_t dataChunkSize = {};
+  bool isDirectAccess = {};
   std::vector<std::string> supportedDocTypes;
 
   binder_status_t readFromParcel(const AParcel* parcel);

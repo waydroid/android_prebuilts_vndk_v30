@@ -18,8 +18,8 @@ class HwLight {
 public:
   static const char* descriptor;
 
-  int32_t id;
-  int32_t ordinal;
+  int32_t id = {};
+  int32_t ordinal = {};
   ::aidl::android::hardware::light::LightType type = ::aidl::android::hardware::light::LightType(0);
 
   binder_status_t readFromParcel(const AParcel* parcel);

@@ -17,7 +17,7 @@ class Timestamp {
 public:
   static const char* descriptor;
 
-  int64_t milliSeconds;
+  int64_t milliSeconds = {};
 
   binder_status_t readFromParcel(const AParcel* parcel);
   binder_status_t writeToParcel(AParcel* parcel) const;
