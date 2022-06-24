@@ -20,8 +20,8 @@ public:
   static const char* descriptor;
 
   ::aidl::android::hardware::automotive::occupant_awareness::ConfidenceLevel confidenceScore = ::aidl::android::hardware::automotive::occupant_awareness::ConfidenceLevel(0);
-  bool isLookingOnRoad;
-  int64_t gazeDurationMillis;
+  bool isLookingOnRoad = {};
+  int64_t gazeDurationMillis = {};
 
   binder_status_t readFromParcel(const AParcel* parcel);
   binder_status_t writeToParcel(AParcel* parcel) const;
