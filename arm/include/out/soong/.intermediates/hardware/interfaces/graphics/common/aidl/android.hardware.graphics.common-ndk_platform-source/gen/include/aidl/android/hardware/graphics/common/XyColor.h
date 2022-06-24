@@ -18,8 +18,8 @@ class XyColor {
 public:
   static const char* descriptor;
 
-  float x;
-  float y;
+  float x = {};
+  float y = {};
 
   binder_status_t readFromParcel(const AParcel* parcel);
   binder_status_t writeToParcel(AParcel* parcel) const;

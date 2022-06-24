@@ -18,8 +18,8 @@ class Cta861_3 {
 public:
   static const char* descriptor;
 
-  float maxContentLightLevel;
-  float maxFrameAverageLightLevel;
+  float maxContentLightLevel = {};
+  float maxFrameAverageLightLevel = {};
 
   binder_status_t readFromParcel(const AParcel* parcel);
   binder_status_t writeToParcel(AParcel* parcel) const;

@@ -20,14 +20,14 @@ public:
   static const char* descriptor;
 
   std::vector<::aidl::android::hardware::graphics::common::PlaneLayoutComponent> components;
-  int64_t offsetInBytes;
-  int64_t sampleIncrementInBits;
-  int64_t strideInBytes;
-  int64_t widthInSamples;
-  int64_t heightInSamples;
-  int64_t totalSizeInBytes;
-  int64_t horizontalSubsampling;
-  int64_t verticalSubsampling;
+  int64_t offsetInBytes = {};
+  int64_t sampleIncrementInBits = {};
+  int64_t strideInBytes = {};
+  int64_t widthInSamples = {};
+  int64_t heightInSamples = {};
+  int64_t totalSizeInBytes = {};
+  int64_t horizontalSubsampling = {};
+  int64_t verticalSubsampling = {};
 
   binder_status_t readFromParcel(const AParcel* parcel);
   binder_status_t writeToParcel(AParcel* parcel) const;
