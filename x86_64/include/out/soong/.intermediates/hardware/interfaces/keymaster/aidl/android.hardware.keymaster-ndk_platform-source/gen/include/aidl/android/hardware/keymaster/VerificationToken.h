@@ -19,7 +19,7 @@ class VerificationToken {
 public:
   static const char* descriptor;
 
-  int64_t challenge;
+  int64_t challenge = {};
   ::aidl::android::hardware::keymaster::Timestamp timestamp;
   ::aidl::android::hardware::keymaster::SecurityLevel securityLevel = ::aidl::android::hardware::keymaster::SecurityLevel(0);
   std::vector<int8_t> mac;

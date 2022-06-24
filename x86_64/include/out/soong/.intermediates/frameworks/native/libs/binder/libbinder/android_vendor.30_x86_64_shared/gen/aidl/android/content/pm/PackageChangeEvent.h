@@ -34,11 +34,11 @@ public:
     return std::tie(packageName, version, lastUpdateTimeMillis, newInstalled, dataRemoved, isDeleted)>=std::tie(rhs.packageName, rhs.version, rhs.lastUpdateTimeMillis, rhs.newInstalled, rhs.dataRemoved, rhs.isDeleted);
   }
   ::std::string packageName;
-  int64_t version;
-  int64_t lastUpdateTimeMillis;
-  bool newInstalled;
-  bool dataRemoved;
-  bool isDeleted;
+  int64_t version = {};
+  int64_t lastUpdateTimeMillis = {};
+  bool newInstalled = {};
+  bool dataRemoved = {};
+  bool isDeleted = {};
   ::android::status_t readFromParcel(const ::android::Parcel* _aidl_parcel) override final;
   ::android::status_t writeToParcel(::android::Parcel* _aidl_parcel) const override final;
 };  // class PackageChangeEvent

@@ -18,7 +18,7 @@ public:
   static const char* descriptor;
 
   std::string name;
-  int64_t size;
+  int64_t size = {};
   std::vector<int32_t> accessControlProfileIds;
 
   binder_status_t readFromParcel(const AParcel* parcel);

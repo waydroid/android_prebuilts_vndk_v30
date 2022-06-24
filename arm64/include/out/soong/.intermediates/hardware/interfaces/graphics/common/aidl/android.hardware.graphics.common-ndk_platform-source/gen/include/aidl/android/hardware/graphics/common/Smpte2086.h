@@ -23,8 +23,8 @@ public:
   ::aidl::android::hardware::graphics::common::XyColor primaryGreen;
   ::aidl::android::hardware::graphics::common::XyColor primaryBlue;
   ::aidl::android::hardware::graphics::common::XyColor whitePoint;
-  float maxLuminance;
-  float minLuminance;
+  float maxLuminance = {};
+  float minLuminance = {};
 
   binder_status_t readFromParcel(const AParcel* parcel);
   binder_status_t writeToParcel(AParcel* parcel) const;

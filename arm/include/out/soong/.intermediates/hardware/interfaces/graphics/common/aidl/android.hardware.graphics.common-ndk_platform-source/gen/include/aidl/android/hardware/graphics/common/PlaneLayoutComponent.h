@@ -20,8 +20,8 @@ public:
   static const char* descriptor;
 
   ::aidl::android::hardware::graphics::common::ExtendableType type;
-  int64_t offsetInBits;
-  int64_t sizeInBits;
+  int64_t offsetInBits = {};
+  int64_t sizeInBits = {};
 
   binder_status_t readFromParcel(const AParcel* parcel);
   binder_status_t writeToParcel(AParcel* parcel) const;
